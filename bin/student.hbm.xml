@@ -1,0 +1,13 @@
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    
+<hibernate-mapping>
+<class name="hibernateSample.Student" table="student">
+<id name="sid" column="id" />
+<property name="sname" column="student_name" />
+<property name="fname" column="father_name" />
+</class>
+</hibernate-mapping>
